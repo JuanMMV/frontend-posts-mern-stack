@@ -60,7 +60,7 @@ export const PostCard = ({ post }) => {
         <p>{post.description}</p>
       </div>
       {post.image && (
-        <img src={post.image.url} className="object-cover h-96 w-full rounded-b-lg" />
+        <img src={post.image.url} alt="ImagePost" className="object-cover h-96 w-full rounded-b-lg" />
       )}
     </div>
   );
