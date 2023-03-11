@@ -1,6 +1,6 @@
 import axios from "axios";
 
-  const host = "https://backend-posts-mern-stack-production.up.railway.app/posts";
+  const host = "https://backend-posts-mern-stack-production.up.railway.app/posts/";
 //const host = "http://localhost:4000/posts";
 
 export const getPostsRequests = async () => await axios.get(host);
@@ -29,7 +29,7 @@ export const updatePostRequests = async (id, newFields) => {
   for(let key in newFields) {
     form.append(key, newFields[key])
   }
-  return await axios.put(`${host}/${id}`, form, {
+  return await axios.put(`${host}${id}`, form, {
     headers:{
       "Content-Type":"multipart/form-data"
     }
