@@ -1,6 +1,7 @@
 import axios from "axios";
 
-  const host = `${process.env.REACT_APP_HOST}/posts` 
+  // const host = `${process.env.REACT_APP_HOST}/posts` 
+  const host = 'https://backend-posts-mern-stack-production.up.railway.app/posts'
   //const host = "http://localhost:4000/posts"; 
 
 export const getPostsRequests = async () => await axios.get(host);
