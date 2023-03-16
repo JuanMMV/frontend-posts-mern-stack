@@ -1,5 +1,5 @@
 # Frontend posts mern stack
-En esta aplicación se puede agregar, eliminar y modificar post.
+En esta aplicación se puede agregar, eliminar y modificar post.  
 Al momento de agregar un post, se le pedirá al usuario que ingrese título, descripción y opcionalmente una imagen.
 
 ## Tecnologías
